@@ -1,6 +1,7 @@
 var XMLHttpRequest = require('xhr2');
 var commits = "https://api.github.com/repos/ezgibas/gitupload/commits";
 test(commits);
+
 function test(input, fileInput) {
     const http = new XMLHttpRequest();
     // get the commits data
